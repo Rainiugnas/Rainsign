@@ -5,7 +5,7 @@
   margin-bottom: $section-gutter;
   height: $menu-height;
   line-height: $menu-height;
-  width: $full-width;
+  width: calc(100% - #{$page-gutter * 2});
   position: fixed;
 }
 

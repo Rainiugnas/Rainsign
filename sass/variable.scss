@@ -1,0 +1,39 @@
+/////////////
+/// Colors
+//
+$colorA: #212121;
+$colorB: #263238;
+$colorC: #37474F;
+$colorD: #424242;
+$colorE: #161719;
+$colorF: #292c2f;
+$colorG: #1d1f21;
+
+/////////////////
+/// Background
+//
+$background-global: $colorB;
+$background-menu: $colorE;
+$background-submenu: $colorG;
+$background-content: $colorA;
+
+/////////////
+/// Gutter
+///
+$section-gutter: 9px;
+$page-gutter: 3px;
+
+////////////
+/// Width
+//
+$submenu-width: 21%;
+
+///////////
+/// Height
+//
+$menu-height: 36px;
+
+//////////
+/// Dry
+//
+$full-width: calc(100% - #{$page-gutter * 2});

@@ -1,0 +1,45 @@
+@import "variable";
+
+.menu {
+  background: $background-menu;
+  margin-bottom: $section-gutter;
+  height: $menu-height;
+  line-height: $menu-height;
+  width: $full-width;
+  position: fixed;
+}
+
+.sub-menu {
+  background: $background-submenu;
+  height: calc(100% - #{$menu-height} - #{$section-gutter}  - #{$page-gutter * 2});
+  width: $submenu-width;
+  display: inline-block;
+  position: fixed;
+  top: #{$menu-height + $page-gutter + $section-gutter};
+}
+
+.content {
+  min-height: calc(100% - #{$menu-height} - #{$section-gutter});
+  background: $background-content;
+  width: calc(100% - #{$submenu-width} - #{$section-gutter});
+  display: inline-block;
+  margin-left: calc(#{$submenu-width} + #{$section-gutter});
+  margin-top: #{$menu-height + $section-gutter};
+}
+
+.hide-content-top {
+  position: fixed;
+  height: #{$menu-height + $page-gutter * 2 + $section-gutter};
+  top: -#{$page-gutter};
+  background: $background-global;
+  width: 100%;
+}
+
+.hide-content-bottom {
+  position: fixed;
+  background: $background-global;
+  bottom: 0px;
+  height: $page-gutter;
+  width: 100%;
+  z-index: 999;
+}

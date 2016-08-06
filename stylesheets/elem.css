@@ -1,0 +1,48 @@
+/* line 3, ../sass/elem.scss */
+.menu {
+  background: #161719;
+  margin-bottom: 9px;
+  height: 36px;
+  line-height: 36px;
+  width: calc(100% - 6px);
+  position: fixed;
+}
+
+/* line 12, ../sass/elem.scss */
+.sub-menu {
+  background: #1d1f21;
+  height: calc(100% - 36px - 9px  - 6px);
+  width: 21%;
+  display: inline-block;
+  position: fixed;
+  top: 48px;
+}
+
+/* line 21, ../sass/elem.scss */
+.content {
+  min-height: calc(100% - 36px - 9px);
+  background: #212121;
+  width: calc(100% - 21% - 9px);
+  display: inline-block;
+  margin-left: calc(21% + 9px);
+  margin-top: 45px;
+}
+
+/* line 30, ../sass/elem.scss */
+.hide-content-top {
+  position: fixed;
+  height: 51px;
+  top: -3px;
+  background: #263238;
+  width: 100%;
+}
+
+/* line 38, ../sass/elem.scss */
+.hide-content-bottom {
+  position: fixed;
+  background: #263238;
+  bottom: 0px;
+  height: 3px;
+  width: 100%;
+  z-index: 999;
+}

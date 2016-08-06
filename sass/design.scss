@@ -14,13 +14,24 @@ body {
   color: $color-title;
 }
 
+.text-default { color: $text-default; }
+.text-success {color: $text-success;}
+.text-primary {color: $text-primary;}
+.text-danger {color: $text-danger;}
+.text-warning {color: $text-warning;}
+
 a {
   color: $color-link;
-
   &:hover {
     text-decoration: none;
     color: $color-link-hover;
   }
+
+  &.text-default:hover {color: $text-default-d;}
+  &.text-success:hover {color: $text-success-d;}
+  &.text-primary:hover {color: $text-primary-d;}
+  &.text-danger:hover {color: $text-danger-d;}
+  &.text-warning:hover {color: $text-warning-d;}
 }
 
 ///////////
@@ -34,11 +45,32 @@ a {
     line-height: #{$menu-height - 2};
   }
   ul {
-    text-align: right;
-
     li {
       display: inline-block;
       padding-left: 21px;
+    }
+  }
+}
+
+//////////////
+/// Submenu
+//
+.sub-menu {
+  padding-top: 12px;
+
+  ul {
+    padding-right: 9px;
+    padding-left: 9px;
+
+    li {
+      padding-top: 6px;
+      padding-bottom: 6px;
+
+      .glyphicon-home {
+        font-size: 36px;
+      }
+
+      &.separate { border-bottom: 3px solid $background-global; }
     }
   }
 }

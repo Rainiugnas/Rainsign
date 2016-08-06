@@ -12,28 +12,92 @@ body {
 }
 
 /* line 17, ../sass/design.scss */
+.text-default {
+  color: #6a6e72;
+}
+
+/* line 18, ../sass/design.scss */
+.text-success {
+  color: #20b684;
+}
+
+/* line 19, ../sass/design.scss */
+.text-primary {
+  color: #6494ed;
+}
+
+/* line 20, ../sass/design.scss */
+.text-danger {
+  color: #d92626;
+}
+
+/* line 21, ../sass/design.scss */
+.text-warning {
+  color: #e2c08d;
+}
+
+/* line 23, ../sass/design.scss */
 a {
   color: #6494ed;
 }
-/* line 20, ../sass/design.scss */
+/* line 25, ../sass/design.scss */
 a:hover {
   text-decoration: none;
   color: #3a66b6;
 }
-
 /* line 30, ../sass/design.scss */
+a.text-default:hover {
+  color: #303337;
+}
+/* line 31, ../sass/design.scss */
+a.text-success:hover {
+  color: #10a372;
+}
+/* line 32, ../sass/design.scss */
+a.text-primary:hover {
+  color: #3a66b6;
+}
+/* line 33, ../sass/design.scss */
+a.text-danger:hover {
+  color: #ba0d0d;
+}
+/* line 34, ../sass/design.scss */
+a.text-warning:hover {
+  color: #c9a46c;
+}
+
+/* line 41, ../sass/design.scss */
 .menu .title {
   font-size: 27px;
   margin: 0px;
   font-weight: bold;
   line-height: 34px;
 }
-/* line 36, ../sass/design.scss */
-.menu ul {
-  text-align: right;
-}
-/* line 39, ../sass/design.scss */
+/* line 48, ../sass/design.scss */
 .menu ul li {
   display: inline-block;
   padding-left: 21px;
+}
+
+/* line 58, ../sass/design.scss */
+.sub-menu {
+  padding-top: 12px;
+}
+/* line 61, ../sass/design.scss */
+.sub-menu ul {
+  padding-right: 9px;
+  padding-left: 9px;
+}
+/* line 65, ../sass/design.scss */
+.sub-menu ul li {
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+/* line 69, ../sass/design.scss */
+.sub-menu ul li .glyphicon-home {
+  font-size: 36px;
+}
+/* line 73, ../sass/design.scss */
+.sub-menu ul li.separate {
+  border-bottom: 3px solid #111314;
 }

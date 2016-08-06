@@ -14,11 +14,11 @@ $colorJ: #10a372;
 $colorK: #20b684;
 $colorL: #31cb97;
 $colorM: #3a66b6; //link hover
-$colorO: #6494ed; //link
-$colorP: #84affe;
-$colorK: #ba0d0d;
-$colorR: #d92626;
-$colorP: #f04040;
+$colorN: #6494ed; //link
+$colorO: #84affe;
+$colorP: #ba0d0d;
+$colorQ: #d92626;
+$colorR: #f04040;
 $colorS: #c9a46c;
 $colorT: #e2c08d;
 $colorU: #f6dab0;
@@ -36,8 +36,28 @@ $background-content: $colorD;
 //
 $color-title: $colorI;
 $color-text: $colorH;
-$color-link: $colorO;
+$color-link: $colorN;
 $color-link-hover: $colorM;
+
+$text-default-d: $colorG;
+$text-default: $colorH;
+$text-default-l: $colorI;
+
+$text-success-d: $colorJ;
+$text-success: $colorK;
+$text-success-l: $colorL;
+
+$text-primary-d: $colorM;
+$text-primary: $colorN;
+$text-primary-l: $colorO;
+
+$text-danger-d: $colorP;
+$text-danger: $colorQ;
+$text-danger-l: $colorR;
+
+$text-warning-d: $colorS;
+$text-warning: $colorT;
+$text-warning-l: $colorU;
 
 /////////////
 /// Gutter

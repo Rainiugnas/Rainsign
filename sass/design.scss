@@ -10,15 +10,35 @@ body {
   color: $color-text;
 }
 
-.title {
-  color: $color-title;
-}
+/////////////////
+/// Background
+//
+.bg-dark {background: $bg-dark;}
+.bg-light {background: $bg-light;}
+.bg-success {background: $bg-success;}
+.bg-primary {background: $bg-primary;}
+.bg-danger {background: $bg-danger;}
+.bg-warning {background: $bg-warning;}
 
-.text-default { color: $text-default; }
+///////////
+/// Text
+//
+.text-default {color: $text-default; }
 .text-success {color: $text-success;}
 .text-primary {color: $text-primary;}
 .text-danger {color: $text-danger;}
 .text-warning {color: $text-warning;}
+
+.title {
+  color: $color-title;
+  margin: 0px;
+
+  .text-default { color: $text-default-l; }
+  .text-success {color: $text-success-l;}
+  .text-primary {color: $text-primary-l;}
+  .text-danger {color: $text-danger-l;}
+  .text-warning {color: $text-warning-l;}
+}
 
 a {
   color: $color-link;
@@ -32,6 +52,52 @@ a {
   &.text-primary:hover {color: $text-primary-d;}
   &.text-danger:hover {color: $text-danger-d;}
   &.text-warning:hover {color: $text-warning-d;}
+}
+
+////////////
+/// Buton
+///
+.btn-default {
+  background: $bg-btn-default;
+  border-color: $border-btn-default;
+  color: white;
+  &:hover {
+    color: white;
+    background: $bg-btn-default-hover;
+    border-color: $border-btn-default-hover;
+  }
+}
+.btn-success {
+  background: $bg-btn-success;
+  border-color: $border-btn-success;
+  &:hover {
+    background: $bg-btn-success-hover;
+    border-color: $border-btn-success-hover;
+  }
+}
+.btn-primary {
+  background: $bg-btn-primary;
+  border-color: $border-btn-primary;
+  &:hover {
+    background: $bg-btn-primary-hover;
+    border-color: $border-btn-primary-hover;
+  }
+}
+.btn-danger {
+  background: $bg-btn-danger;
+  border-color: $border-btn-danger;
+  &:hover {
+    background: $bg-btn-danger-hover;
+    border-color: $border-btn-danger-hover;
+  }
+}
+.btn-warning {
+  background: $bg-btn-warning;
+  border-color: $border-btn-warning;
+  &:hover {
+    background: $bg-btn-warning-hover;
+    border-color: $border-btn-warning-hover;
+  }
 }
 
 ///////////
@@ -72,5 +138,35 @@ a {
 
       &.separate { border-bottom: 3px solid $background-global; }
     }
+  }
+}
+
+//////////////
+/// Content
+//
+.content {
+  padding: 15px 18px;
+
+  .block {
+    margin-bottom: 36px;
+
+    > .title {
+      font-size: 21px;
+      padding-bottom: 9px;
+      font-weight: normal;
+      text-transform: uppercase;
+      margin-bottom: 21px;
+
+      &.text-default {border-bottom: solid 1px $text-default;}
+      &.text-success {border-bottom: solid 1px $text-success;}
+      &.text-primary {border-bottom: solid 1px $text-primary;}
+      &.text-danger {border-bottom: solid 1px $text-danger;}
+      &.text-warning {border-bottom: solid 1px $text-warning;}
+    }
+  }
+
+  .box {
+    padding: 9px 12px;
+    border-radius: $radius-box;
   }
 }

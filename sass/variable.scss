@@ -6,7 +6,6 @@ $colorB: #131516; //box dark (121415)
 $colorC: #161719; //menu
 $colorD: #1d1f21; //content
 $colorE: #292c2f; //box light
-$colorF: #292c2f; //light
 $colorG: #303337; //super light
 $colorH: #6a6e72; //basic text
 $colorI: #d9dbde; //title
@@ -30,6 +29,38 @@ $background-global: $colorA;
 $background-menu: $colorB;
 $background-submenu: $colorC;
 $background-content: $colorD;
+
+$bg-dark: $colorB;
+$bg-light: $colorE;
+$bg-success: $colorK;
+$bg-primary: $colorN;
+$bg-danger: $colorQ;
+$bg-warning: $colorT;
+
+$bg-btn-default: $colorH;
+$border-btn-default: $colorG;
+$bg-btn-default-hover: $colorG;
+$border-btn-default-hover: $colorI;
+
+$bg-btn-success: $colorK;
+$border-btn-success: $colorJ;
+$bg-btn-success-hover: $colorJ;
+$border-btn-success-hover: $colorL;
+
+$bg-btn-primary: $colorN;
+$border-btn-primary: $colorM;
+$bg-btn-primary-hover: $colorM;
+$border-btn-primary-hover: $colorO;
+
+$bg-btn-danger: $colorQ;
+$border-btn-danger: $colorP;
+$bg-btn-danger-hover: $colorP;
+$border-btn-danger-hover: $colorR;
+
+$bg-btn-warning: $colorT;
+$border-btn-warning: $colorS;
+$bg-btn-warning-hover: $colorS;
+$border-btn-warning-hover: $colorU;
 
 ///////////
 /// Text
@@ -74,3 +105,8 @@ $submenu-width: 21%;
 /// Height
 //
 $menu-height: 36px;
+
+/////////////
+/// Radius
+//
+$radius-box: 3px;

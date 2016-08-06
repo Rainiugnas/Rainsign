@@ -1,6 +1,6 @@
 /* line 3, ../sass/elem.scss */
 .menu {
-  background: #161719;
+  background: #131516;
   margin-bottom: 9px;
   height: 36px;
   line-height: 36px;
@@ -10,7 +10,7 @@
 
 /* line 12, ../sass/elem.scss */
 .sub-menu {
-  background: #1d1f21;
+  background: #161719;
   height: calc(100% - 36px - 9px  - 6px);
   width: 21%;
   display: inline-block;
@@ -21,7 +21,7 @@
 /* line 21, ../sass/elem.scss */
 .content {
   min-height: calc(100% - 36px - 9px);
-  background: #212121;
+  background: #1d1f21;
   width: calc(100% - 21% - 9px);
   display: inline-block;
   margin-left: calc(21% + 9px);
@@ -33,14 +33,14 @@
   position: fixed;
   height: 51px;
   top: -3px;
-  background: #263238;
+  background: #111314;
   width: 100%;
 }
 
 /* line 38, ../sass/elem.scss */
 .hide-content-bottom {
   position: fixed;
-  background: #263238;
+  background: #111314;
   bottom: 0px;
   height: 3px;
   width: 100%;

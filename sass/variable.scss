@@ -1,21 +1,21 @@
 /////////////
 /// Colors
 //
-$colorA: #212121;
-$colorB: #263238;
-$colorC: #37474F;
-$colorD: #424242;
-$colorE: #161719;
-$colorF: #292c2f;
-$colorG: #1d1f21;
+$colorA: #111314; //gutter
+$colorB: #131516; //box dark (121415)
+$colorC: #161719; //menu
+$colorD: #1d1f21; //content
+$colorE: #292c2f; //box light
+$colorF: #292c2f; //light
+$colorG: #303337; //super light
 
 /////////////////
 /// Background
 //
-$background-global: $colorB;
-$background-menu: $colorE;
-$background-submenu: $colorG;
-$background-content: $colorA;
+$background-global: $colorA;
+$background-menu: $colorB;
+$background-submenu: $colorC;
+$background-content: $colorD;
 
 /////////////
 /// Gutter

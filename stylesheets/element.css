@@ -1,4 +1,4 @@
-/* line 3, ../sass/elem.scss */
+/* line 3, ../sass/element.scss */
 .menu {
   background: #131516;
   margin-bottom: 9px;
@@ -8,7 +8,7 @@
   position: fixed;
 }
 
-/* line 12, ../sass/elem.scss */
+/* line 12, ../sass/element.scss */
 .sub-menu {
   background: #161719;
   height: calc(100% - 36px - 9px  - 6px);
@@ -18,7 +18,7 @@
   top: 48px;
 }
 
-/* line 21, ../sass/elem.scss */
+/* line 21, ../sass/element.scss */
 .content {
   min-height: calc(100% - 36px - 9px);
   background: #1d1f21;
@@ -28,7 +28,7 @@
   margin-top: 45px;
 }
 
-/* line 30, ../sass/elem.scss */
+/* line 30, ../sass/element.scss */
 .hide-content-top {
   position: fixed;
   height: 51px;
@@ -37,7 +37,7 @@
   width: 100%;
 }
 
-/* line 38, ../sass/elem.scss */
+/* line 38, ../sass/element.scss */
 .hide-content-bottom {
   position: fixed;
   background: #111314;

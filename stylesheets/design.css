@@ -1,0 +1,39 @@
+/* line 6, ../sass/design.scss */
+body {
+  background: #111314;
+  padding: 3px;
+  position: relative;
+  color: #6a6e72;
+}
+
+/* line 13, ../sass/design.scss */
+.title {
+  color: #d9dbde;
+}
+
+/* line 17, ../sass/design.scss */
+a {
+  color: #6494ed;
+}
+/* line 20, ../sass/design.scss */
+a:hover {
+  text-decoration: none;
+  color: #3a66b6;
+}
+
+/* line 30, ../sass/design.scss */
+.menu .title {
+  font-size: 27px;
+  margin: 0px;
+  font-weight: bold;
+  line-height: 34px;
+}
+/* line 36, ../sass/design.scss */
+.menu ul {
+  text-align: right;
+}
+/* line 39, ../sass/design.scss */
+.menu ul li {
+  display: inline-block;
+  padding-left: 21px;
+}

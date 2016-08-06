@@ -8,6 +8,20 @@ $colorD: #1d1f21; //content
 $colorE: #292c2f; //box light
 $colorF: #292c2f; //light
 $colorG: #303337; //super light
+$colorH: #6a6e72; //basic text
+$colorI: #d9dbde; //title
+$colorJ: #10a372;
+$colorK: #20b684;
+$colorL: #31cb97;
+$colorM: #3a66b6; //link hover
+$colorO: #6494ed; //link
+$colorP: #84affe;
+$colorK: #ba0d0d;
+$colorR: #d92626;
+$colorP: #f04040;
+$colorS: #c9a46c;
+$colorT: #e2c08d;
+$colorU: #f6dab0;
 
 /////////////////
 /// Background
@@ -16,6 +30,14 @@ $background-global: $colorA;
 $background-menu: $colorB;
 $background-submenu: $colorC;
 $background-content: $colorD;
+
+///////////
+/// Text
+//
+$color-title: $colorI;
+$color-text: $colorH;
+$color-link: $colorO;
+$color-link-hover: $colorM;
 
 /////////////
 /// Gutter

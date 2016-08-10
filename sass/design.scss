@@ -187,7 +187,7 @@ a {
 form {
   label { color: $basic-form-label; }
 
-  input.form-control {
+  .form-control  {
     border: none;
     background: none;
     border: none;
@@ -202,10 +202,22 @@ form {
     }
   }
 
+  textarea.form-control {
+    border-left: 1px solid $basic-form-input;
+    resize: none;
+    &:focus { border-left: 1px solid $basic-form-input-focus; }
+  }
+
+  select.form-control {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+  }
+
   /// Global color
   &.form-default {
     label { color: $form-label-default; }
-    input.form-control {
+    .form-control {
       border-color: $form-input-default;
       color: $form-input-text-default;
       &:focus { border-color: $form-input-focus-default }
@@ -213,7 +225,7 @@ form {
   }
   &.form-success {
     label { color: $form-label-success; }
-    input.form-control {
+    .form-control {
       border-color: $form-input-success;
       color: $form-input-text-success;
       &:focus { border-color: $form-input-focus-success }
@@ -221,7 +233,7 @@ form {
   }
   &.form-primary {
     label { color: $form-label-primary; }
-    input.form-control {
+    .form-control {
       border-color: $form-input-primary;
       color: $form-input-text-primary;
       &:focus { border-color: $form-input-focus-primary }
@@ -229,7 +241,7 @@ form {
   }
   &.form-danger {
     label { color: $form-label-danger; }
-    input.form-control {
+    .form-control {
       border-color: $form-input-danger;
       color: $form-input-text-danger;
       &:focus { border-color: $form-input-focus-danger }
@@ -237,7 +249,7 @@ form {
   }
   &.form-warning {
     label { color: $form-label-warning; }
-    input.form-control {
+    .form-control {
       border-color: $form-input-warning;
       color: $form-input-text-warning;
       &:focus { border-color: $form-input-focus-warning }
@@ -248,7 +260,7 @@ form {
   .form-group {
     &.input-default {
       label { color: $form-label-default; }
-      input.form-control {
+      .form-control {
         border-color: $form-input-default;
         color: $form-input-text-default;
         &:focus { border-color: $form-input-focus-default }
@@ -256,7 +268,7 @@ form {
     }
     &.input-success {
       label { color: $form-label-success; }
-      input.form-control {
+      .form-control {
         border-color: $form-input-success;
         color: $form-input-text-success;
         &:focus { border-color: $form-input-focus-success }
@@ -264,7 +276,7 @@ form {
     }
     &.input-primary {
       label { color: $form-label-primary; }
-      input.form-control {
+      .form-control {
         border-color: $form-input-primary;
         color: $form-input-text-primary;
         &:focus { border-color: $form-input-focus-primary }
@@ -272,7 +284,7 @@ form {
     }
     &.input-danger {
       label { color: $form-label-danger; }
-      input.form-control {
+      .form-control {
         border-color: $form-input-danger;
         color: $form-input-text-danger;
         &:focus { border-color: $form-input-focus-danger }
@@ -280,7 +292,7 @@ form {
     }
     &.input-warning {
       label { color: $form-label-warning; }
-      input.form-control {
+      .form-control {
         border-color: $form-input-warning;
         color: $form-input-text-warning;
         &:focus { border-color: $form-input-focus-warning }

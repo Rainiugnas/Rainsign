@@ -8,6 +8,8 @@ body {
   padding: $page-gutter;
   position: relative;
   color: $color-text;
+  font-size: $basic-text-size;
+  line-height: 20px;
 }
 
 /////////////////
@@ -166,7 +168,15 @@ a {
   }
 
   .box {
+    margin-bottom: 30px;
     padding: 9px 12px;
     border-radius: $radius-box;
+        
+    .title {
+      font-size: $basic-text-size;
+      font-weight: normal;
+      line-height: 20px;
+    }
+    .box { margin-bottom: 9px;}
   }
 }

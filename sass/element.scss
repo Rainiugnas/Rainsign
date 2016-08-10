@@ -7,6 +7,7 @@
   line-height: $menu-height;
   width: calc(100% - #{$page-gutter * 2});
   position: fixed;
+  z-index: 999;
 }
 
 .sub-menu {
@@ -19,7 +20,7 @@
 }
 
 .content {
-  min-height: calc(100% - #{$menu-height} - #{$section-gutter});
+  //min-height: calc(100% - #{$menu-height} - #{$section-gutter});
   background: $background-content;
   width: calc(100% - #{$submenu-width} - #{$section-gutter});
   display: inline-block;
@@ -33,6 +34,7 @@
   top: -#{$page-gutter};
   background: $background-global;
   width: 100%;
+  z-index: 990;
 }
 
 .hide-content-bottom {

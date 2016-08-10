@@ -6,9 +6,10 @@
   line-height: 36px;
   width: calc(100% - 6px);
   position: fixed;
+  z-index: 999;
 }
 
-/* line 12, ../sass/element.scss */
+/* line 13, ../sass/element.scss */
 .sub-menu {
   background: #161719;
   height: calc(100% - 36px - 9px  - 6px);
@@ -18,9 +19,8 @@
   top: 48px;
 }
 
-/* line 21, ../sass/element.scss */
+/* line 22, ../sass/element.scss */
 .content {
-  min-height: calc(100% - 36px - 9px);
   background: #1d1f21;
   width: calc(100% - 21% - 9px);
   display: inline-block;
@@ -28,16 +28,17 @@
   margin-top: 45px;
 }
 
-/* line 30, ../sass/element.scss */
+/* line 31, ../sass/element.scss */
 .hide-content-top {
   position: fixed;
   height: 51px;
   top: -3px;
   background: #111314;
   width: 100%;
+  z-index: 990;
 }
 
-/* line 38, ../sass/element.scss */
+/* line 40, ../sass/element.scss */
 .hide-content-bottom {
   position: fixed;
   background: #111314;

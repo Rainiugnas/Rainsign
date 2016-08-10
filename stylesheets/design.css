@@ -264,3 +264,153 @@ a.text-warning:hover {
 .content .box .box {
   margin-bottom: 9px;
 }
+
+/* line 188, ../sass/design.scss */
+form label {
+  color: #d9dbde;
+}
+/* line 190, ../sass/design.scss */
+form input.form-control {
+  border: none;
+  background: none;
+  border: none;
+  box-shadow: none;
+  border-radius: 0px;
+  border-bottom: 1px solid #d9dbde;
+  color: #6a6e72;
+}
+/* line 199, ../sass/design.scss */
+form input.form-control:focus {
+  box-shadow: none;
+  border-bottom: 1px solid #303337;
+}
+/* line 207, ../sass/design.scss */
+form.form-default label {
+  color: #6a6e72;
+}
+/* line 208, ../sass/design.scss */
+form.form-default input.form-control {
+  border-color: #6a6e72;
+  color: #d9dbde;
+}
+/* line 211, ../sass/design.scss */
+form.form-default input.form-control:focus {
+  border-color: #303337;
+}
+/* line 215, ../sass/design.scss */
+form.form-success label {
+  color: #10a372;
+}
+/* line 216, ../sass/design.scss */
+form.form-success input.form-control {
+  border-color: #10a372;
+  color: #31cb97;
+}
+/* line 219, ../sass/design.scss */
+form.form-success input.form-control:focus {
+  border-color: #20b684;
+}
+/* line 223, ../sass/design.scss */
+form.form-primary label {
+  color: #3a66b6;
+}
+/* line 224, ../sass/design.scss */
+form.form-primary input.form-control {
+  border-color: #3a66b6;
+  color: #84affe;
+}
+/* line 227, ../sass/design.scss */
+form.form-primary input.form-control:focus {
+  border-color: #6494ed;
+}
+/* line 231, ../sass/design.scss */
+form.form-danger label {
+  color: #ba0d0d;
+}
+/* line 232, ../sass/design.scss */
+form.form-danger input.form-control {
+  border-color: #ba0d0d;
+  color: #f04040;
+}
+/* line 235, ../sass/design.scss */
+form.form-danger input.form-control:focus {
+  border-color: #d92626;
+}
+/* line 239, ../sass/design.scss */
+form.form-warning label {
+  color: #c9a46c;
+}
+/* line 240, ../sass/design.scss */
+form.form-warning input.form-control {
+  border-color: #c9a46c;
+  color: #f6dab0;
+}
+/* line 243, ../sass/design.scss */
+form.form-warning input.form-control:focus {
+  border-color: #e2c08d;
+}
+/* line 250, ../sass/design.scss */
+form .form-group.input-default label {
+  color: #6a6e72;
+}
+/* line 251, ../sass/design.scss */
+form .form-group.input-default input.form-control {
+  border-color: #6a6e72;
+  color: #d9dbde;
+}
+/* line 254, ../sass/design.scss */
+form .form-group.input-default input.form-control:focus {
+  border-color: #303337;
+}
+/* line 258, ../sass/design.scss */
+form .form-group.input-success label {
+  color: #10a372;
+}
+/* line 259, ../sass/design.scss */
+form .form-group.input-success input.form-control {
+  border-color: #10a372;
+  color: #31cb97;
+}
+/* line 262, ../sass/design.scss */
+form .form-group.input-success input.form-control:focus {
+  border-color: #20b684;
+}
+/* line 266, ../sass/design.scss */
+form .form-group.input-primary label {
+  color: #3a66b6;
+}
+/* line 267, ../sass/design.scss */
+form .form-group.input-primary input.form-control {
+  border-color: #3a66b6;
+  color: #84affe;
+}
+/* line 270, ../sass/design.scss */
+form .form-group.input-primary input.form-control:focus {
+  border-color: #6494ed;
+}
+/* line 274, ../sass/design.scss */
+form .form-group.input-danger label {
+  color: #ba0d0d;
+}
+/* line 275, ../sass/design.scss */
+form .form-group.input-danger input.form-control {
+  border-color: #ba0d0d;
+  color: #f04040;
+}
+/* line 278, ../sass/design.scss */
+form .form-group.input-danger input.form-control:focus {
+  border-color: #d92626;
+}
+/* line 282, ../sass/design.scss */
+form .form-group.input-warning label {
+  color: #c9a46c;
+}
+/* line 283, ../sass/design.scss */
+form .form-group.input-warning input.form-control {
+  border-color: #c9a46c;
+  color: #f6dab0;
+}
+/* line 286, ../sass/design.scss */
+form .form-group.input-warning input.form-control:focus {
+  border-color: #e2c08d;
+}

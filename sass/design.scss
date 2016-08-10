@@ -171,7 +171,7 @@ a {
     margin-bottom: 30px;
     padding: 9px 12px;
     border-radius: $radius-box;
-        
+
     .title {
       font-size: $basic-text-size;
       font-weight: normal;
@@ -180,3 +180,127 @@ a {
     .box { margin-bottom: 9px;}
   }
 }
+
+///////////
+/// Form
+//
+form {
+  label { color: $basic-form-label; }
+
+  input.form-control {
+    border: none;
+    background: none;
+    border: none;
+    box-shadow: none;
+    border-radius: 0px;
+    border-bottom: 1px solid $basic-form-input;
+    color: $basic-form-input-text;
+
+    &:focus {
+      box-shadow: none;
+      border-bottom: 1px solid $basic-form-input-focus;
+    }
+  }
+
+  /// Global color
+  &.form-default {
+    label { color: $form-label-default; }
+    input.form-control {
+      border-color: $form-input-default;
+      color: $form-input-text-default;
+      &:focus { border-color: $form-input-focus-default }
+    }
+  }
+  &.form-success {
+    label { color: $form-label-success; }
+    input.form-control {
+      border-color: $form-input-success;
+      color: $form-input-text-success;
+      &:focus { border-color: $form-input-focus-success }
+    }
+  }
+  &.form-primary {
+    label { color: $form-label-primary; }
+    input.form-control {
+      border-color: $form-input-primary;
+      color: $form-input-text-primary;
+      &:focus { border-color: $form-input-focus-primary }
+    }
+  }
+  &.form-danger {
+    label { color: $form-label-danger; }
+    input.form-control {
+      border-color: $form-input-danger;
+      color: $form-input-text-danger;
+      &:focus { border-color: $form-input-focus-danger }
+    }
+  }
+  &.form-warning {
+    label { color: $form-label-warning; }
+    input.form-control {
+      border-color: $form-input-warning;
+      color: $form-input-text-warning;
+      &:focus { border-color: $form-input-focus-warning }
+    }
+  }
+
+  /// Specific input
+  .form-group {
+    &.input-default {
+      label { color: $form-label-default; }
+      input.form-control {
+        border-color: $form-input-default;
+        color: $form-input-text-default;
+        &:focus { border-color: $form-input-focus-default }
+      }
+    }
+    &.input-success {
+      label { color: $form-label-success; }
+      input.form-control {
+        border-color: $form-input-success;
+        color: $form-input-text-success;
+        &:focus { border-color: $form-input-focus-success }
+      }
+    }
+    &.input-primary {
+      label { color: $form-label-primary; }
+      input.form-control {
+        border-color: $form-input-primary;
+        color: $form-input-text-primary;
+        &:focus { border-color: $form-input-focus-primary }
+      }
+    }
+    &.input-danger {
+      label { color: $form-label-danger; }
+      input.form-control {
+        border-color: $form-input-danger;
+        color: $form-input-text-danger;
+        &:focus { border-color: $form-input-focus-danger }
+      }
+    }
+    &.input-warning {
+      label { color: $form-label-warning; }
+      input.form-control {
+        border-color: $form-input-warning;
+        color: $form-input-text-warning;
+        &:focus { border-color: $form-input-focus-warning }
+      }
+    }
+  }
+}
+
+// .checkbox {
+//   input[type=checkbox] {
+//     -webkit-appearance: none;
+//
+//     &::before {
+//       content: " ";
+//       display: inline-block;
+//       width: 20px;
+//       height: 20px;
+//       cursor: pointer;
+//       background: none;
+//       border: 1px solid black;
+//     }
+//   }
+// }

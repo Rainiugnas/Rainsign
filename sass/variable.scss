@@ -65,6 +65,7 @@ $border-btn-warning-hover: $colorU;
 ///////////
 /// Text
 //
+$basic-text-size: 14px;
 $color-title: $colorI;
 $color-text: $colorH;
 $color-link: $colorN;
@@ -90,6 +91,39 @@ $text-warning-d: $colorS;
 $text-warning: $colorT;
 $text-warning-l: $colorU;
 
+///////////
+/// Form
+//
+$basic-form-input-focus: $colorG;
+$basic-form-input: $colorI;
+$basic-form-input-text: $colorH;
+$basic-form-label: $colorI;
+
+$form-input-focus-default: $colorG;
+$form-input-default: $colorH;
+$form-input-text-default: $colorI;
+$form-label-default: $colorH;
+
+$form-input-focus-success: $colorK;
+$form-input-success: $colorJ;
+$form-input-text-success: $colorL;
+$form-label-success: $colorJ;
+
+$form-input-focus-primary: $colorN;
+$form-input-primary: $colorM;
+$form-input-text-primary: $colorO;
+$form-label-primary: $colorM;
+
+$form-input-focus-danger: $colorQ;
+$form-input-danger: $colorP;
+$form-input-text-danger: $colorR;
+$form-label-danger: $colorP;
+
+$form-input-focus-warning: $colorT;
+$form-input-warning: $colorS;
+$form-input-text-warning: $colorU;
+$form-label-warning: $colorS;
+
 /////////////
 /// Gutter
 ///
@@ -110,8 +144,3 @@ $menu-height: 36px;
 /// Radius
 //
 $radius-box: 3px;
-
-///////////
-/// Font
-//
-$basic-text-size: 14px;

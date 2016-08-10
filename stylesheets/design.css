@@ -299,133 +299,264 @@ form select.form-control {
   -webkit-appearance: none;
   -moz-appearance: none;
 }
+/* line 218, ../sass/design.scss */
+form .checkbox label {
+  padding-left: 27px;
+}
 /* line 219, ../sass/design.scss */
+form .checkbox input[type=checkbox] {
+  appearance: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  margin: 0px;
+  margin-left: -27px;
+  margin-top: 1px;
+}
+/* line 227, ../sass/design.scss */
+form .checkbox input[type=checkbox]:focus {
+  outline: none;
+}
+/* line 228, ../sass/design.scss */
+form .checkbox input[type=checkbox]::before {
+  content: " ";
+  display: inline-block;
+  width: 18px;
+  height: 18px;
+  cursor: pointer;
+  background: none;
+  border: 3px solid #303337;
+}
+/* line 237, ../sass/design.scss */
+form .checkbox input[type=checkbox]:checked::before {
+  background: #d9dbde;
+}
+/* line 243, ../sass/design.scss */
 form.form-default label {
   color: #6a6e72;
 }
-/* line 220, ../sass/design.scss */
+/* line 244, ../sass/design.scss */
 form.form-default .form-control {
   border-color: #6a6e72;
   color: #d9dbde;
 }
-/* line 223, ../sass/design.scss */
+/* line 247, ../sass/design.scss */
 form.form-default .form-control:focus {
   border-color: #303337;
 }
-/* line 227, ../sass/design.scss */
+/* line 252, ../sass/design.scss */
+form.form-default .checkbox input[type=checkbox]::before {
+  border-color: #6a6e72;
+}
+/* line 253, ../sass/design.scss */
+form.form-default .checkbox input[type=checkbox]:checked::before {
+  background: #d9dbde;
+}
+/* line 258, ../sass/design.scss */
 form.form-success label {
   color: #10a372;
 }
-/* line 228, ../sass/design.scss */
+/* line 259, ../sass/design.scss */
 form.form-success .form-control {
   border-color: #10a372;
   color: #31cb97;
 }
-/* line 231, ../sass/design.scss */
+/* line 262, ../sass/design.scss */
 form.form-success .form-control:focus {
   border-color: #20b684;
 }
-/* line 235, ../sass/design.scss */
+/* line 267, ../sass/design.scss */
+form.form-success .checkbox input[type=checkbox]::before {
+  border-color: #10a372;
+}
+/* line 268, ../sass/design.scss */
+form.form-success .checkbox input[type=checkbox]:checked::before {
+  background: #31cb97;
+}
+/* line 273, ../sass/design.scss */
 form.form-primary label {
   color: #3a66b6;
 }
-/* line 236, ../sass/design.scss */
+/* line 274, ../sass/design.scss */
 form.form-primary .form-control {
   border-color: #3a66b6;
   color: #84affe;
 }
-/* line 239, ../sass/design.scss */
+/* line 277, ../sass/design.scss */
 form.form-primary .form-control:focus {
   border-color: #6494ed;
 }
-/* line 243, ../sass/design.scss */
+/* line 282, ../sass/design.scss */
+form.form-primary .checkbox input[type=checkbox]::before {
+  border-color: #3a66b6;
+}
+/* line 283, ../sass/design.scss */
+form.form-primary .checkbox input[type=checkbox]:checked::before {
+  background: #84affe;
+}
+/* line 288, ../sass/design.scss */
 form.form-danger label {
   color: #ba0d0d;
 }
-/* line 244, ../sass/design.scss */
+/* line 289, ../sass/design.scss */
 form.form-danger .form-control {
   border-color: #ba0d0d;
   color: #f04040;
 }
-/* line 247, ../sass/design.scss */
+/* line 292, ../sass/design.scss */
 form.form-danger .form-control:focus {
   border-color: #d92626;
 }
-/* line 251, ../sass/design.scss */
+/* line 297, ../sass/design.scss */
+form.form-danger .checkbox input[type=checkbox]::before {
+  border-color: #ba0d0d;
+}
+/* line 298, ../sass/design.scss */
+form.form-danger .checkbox input[type=checkbox]:checked::before {
+  background: #f04040;
+}
+/* line 303, ../sass/design.scss */
 form.form-warning label {
   color: #c9a46c;
 }
-/* line 252, ../sass/design.scss */
+/* line 304, ../sass/design.scss */
 form.form-warning .form-control {
   border-color: #c9a46c;
   color: #f6dab0;
 }
-/* line 255, ../sass/design.scss */
+/* line 307, ../sass/design.scss */
 form.form-warning .form-control:focus {
   border-color: #e2c08d;
 }
-/* line 262, ../sass/design.scss */
+/* line 312, ../sass/design.scss */
+form.form-warning .checkbox input[type=checkbox]::before {
+  border-color: #c9a46c;
+}
+/* line 313, ../sass/design.scss */
+form.form-warning .checkbox input[type=checkbox]:checked::before {
+  background: #f6dab0;
+}
+/* line 321, ../sass/design.scss */
 form .form-group.input-default label {
   color: #6a6e72;
 }
-/* line 263, ../sass/design.scss */
+/* line 322, ../sass/design.scss */
 form .form-group.input-default .form-control {
   border-color: #6a6e72;
   color: #d9dbde;
 }
-/* line 266, ../sass/design.scss */
+/* line 325, ../sass/design.scss */
 form .form-group.input-default .form-control:focus {
   border-color: #303337;
 }
-/* line 270, ../sass/design.scss */
+/* line 329, ../sass/design.scss */
 form .form-group.input-success label {
   color: #10a372;
 }
-/* line 271, ../sass/design.scss */
+/* line 330, ../sass/design.scss */
 form .form-group.input-success .form-control {
   border-color: #10a372;
   color: #31cb97;
 }
-/* line 274, ../sass/design.scss */
+/* line 333, ../sass/design.scss */
 form .form-group.input-success .form-control:focus {
   border-color: #20b684;
 }
-/* line 278, ../sass/design.scss */
+/* line 337, ../sass/design.scss */
 form .form-group.input-primary label {
   color: #3a66b6;
 }
-/* line 279, ../sass/design.scss */
+/* line 338, ../sass/design.scss */
 form .form-group.input-primary .form-control {
   border-color: #3a66b6;
   color: #84affe;
 }
-/* line 282, ../sass/design.scss */
+/* line 341, ../sass/design.scss */
 form .form-group.input-primary .form-control:focus {
   border-color: #6494ed;
 }
-/* line 286, ../sass/design.scss */
+/* line 345, ../sass/design.scss */
 form .form-group.input-danger label {
   color: #ba0d0d;
 }
-/* line 287, ../sass/design.scss */
+/* line 346, ../sass/design.scss */
 form .form-group.input-danger .form-control {
   border-color: #ba0d0d;
   color: #f04040;
 }
-/* line 290, ../sass/design.scss */
+/* line 349, ../sass/design.scss */
 form .form-group.input-danger .form-control:focus {
   border-color: #d92626;
 }
-/* line 294, ../sass/design.scss */
+/* line 353, ../sass/design.scss */
 form .form-group.input-warning label {
   color: #c9a46c;
 }
-/* line 295, ../sass/design.scss */
+/* line 354, ../sass/design.scss */
 form .form-group.input-warning .form-control {
   border-color: #c9a46c;
   color: #f6dab0;
 }
-/* line 298, ../sass/design.scss */
+/* line 357, ../sass/design.scss */
 form .form-group.input-warning .form-control:focus {
   border-color: #e2c08d;
+}
+/* line 365, ../sass/design.scss */
+form .checkbox.input-default label {
+  color: #6a6e72;
+}
+/* line 367, ../sass/design.scss */
+form .checkbox.input-default input[type=checkbox]::before {
+  border-color: #6a6e72;
+}
+/* line 368, ../sass/design.scss */
+form .checkbox.input-default input[type=checkbox]:checked::before {
+  background: #d9dbde;
+}
+/* line 372, ../sass/design.scss */
+form .checkbox.input-success label {
+  color: #10a372;
+}
+/* line 374, ../sass/design.scss */
+form .checkbox.input-success input[type=checkbox]::before {
+  border-color: #10a372;
+}
+/* line 375, ../sass/design.scss */
+form .checkbox.input-success input[type=checkbox]:checked::before {
+  background: #31cb97;
+}
+/* line 379, ../sass/design.scss */
+form .checkbox.input-primary label {
+  color: #3a66b6;
+}
+/* line 381, ../sass/design.scss */
+form .checkbox.input-primary input[type=checkbox]::before {
+  border-color: #3a66b6;
+}
+/* line 382, ../sass/design.scss */
+form .checkbox.input-primary input[type=checkbox]:checked::before {
+  background: #84affe;
+}
+/* line 386, ../sass/design.scss */
+form .checkbox.input-warning label {
+  color: #ba0d0d;
+}
+/* line 388, ../sass/design.scss */
+form .checkbox.input-warning input[type=checkbox]::before {
+  border-color: #ba0d0d;
+}
+/* line 389, ../sass/design.scss */
+form .checkbox.input-warning input[type=checkbox]:checked::before {
+  background: #f04040;
+}
+/* line 393, ../sass/design.scss */
+form .checkbox.input-warning label {
+  color: #c9a46c;
+}
+/* line 395, ../sass/design.scss */
+form .checkbox.input-warning input[type=checkbox]::before {
+  border-color: #c9a46c;
+}
+/* line 396, ../sass/design.scss */
+form .checkbox.input-warning input[type=checkbox]:checked::before {
+  background: #f6dab0;
 }

@@ -214,6 +214,30 @@ form {
     -moz-appearance: none;
   }
 
+  .checkbox {
+    label { padding-left: 27px;}
+    input[type=checkbox] {
+      appearance: none;
+      -webkit-appearance: none;
+      -moz-appearance: none;
+      margin: 0px;
+      margin-left: -27px;
+      margin-top: 1px;
+
+      &:focus { outline: none;}
+      &::before {
+        content: " ";
+        display: inline-block;
+        width: 18px;
+        height: 18px;
+        cursor: pointer;
+        background: none;
+        border: 3px solid $basic-form-input-focus;
+      }
+      &:checked::before { background: $basic-form-input-text; }
+    }
+  }
+
   /// Global color
   &.form-default {
     label { color: $form-label-default; }
@@ -221,6 +245,13 @@ form {
       border-color: $form-input-default;
       color: $form-input-text-default;
       &:focus { border-color: $form-input-focus-default }
+    }
+
+    .checkbox {
+      input[type=checkbox] {
+        &::before { border-color: $form-label-default; }
+        &:checked::before { background: $form-input-text-default; }
+      }
     }
   }
   &.form-success {
@@ -230,6 +261,13 @@ form {
       color: $form-input-text-success;
       &:focus { border-color: $form-input-focus-success }
     }
+
+    .checkbox {
+      input[type=checkbox] {
+        &::before { border-color: $form-label-success; }
+        &:checked::before { background: $form-input-text-success; }
+      }
+    }
   }
   &.form-primary {
     label { color: $form-label-primary; }
@@ -237,6 +275,13 @@ form {
       border-color: $form-input-primary;
       color: $form-input-text-primary;
       &:focus { border-color: $form-input-focus-primary }
+    }
+
+    .checkbox {
+      input[type=checkbox] {
+        &::before { border-color: $form-label-primary; }
+        &:checked::before { background: $form-input-text-primary; }
+      }
     }
   }
   &.form-danger {
@@ -246,6 +291,13 @@ form {
       color: $form-input-text-danger;
       &:focus { border-color: $form-input-focus-danger }
     }
+
+    .checkbox {
+      input[type=checkbox] {
+        &::before { border-color: $form-label-danger; }
+        &:checked::before { background: $form-input-text-danger; }
+      }
+    }
   }
   &.form-warning {
     label { color: $form-label-warning; }
@@ -254,9 +306,16 @@ form {
       color: $form-input-text-warning;
       &:focus { border-color: $form-input-focus-warning }
     }
+
+    .checkbox {
+      input[type=checkbox] {
+        &::before { border-color: $form-label-warning; }
+        &:checked::before { background: $form-input-text-warning; }
+      }
+    }
   }
 
-  /// Specific input
+  /// Specific input / textarea / select
   .form-group {
     &.input-default {
       label { color: $form-label-default; }
@@ -279,7 +338,7 @@ form {
       .form-control {
         border-color: $form-input-primary;
         color: $form-input-text-primary;
-        &:focus { border-color: $form-input-focus-primary }
+        &:focus { border-color: $form-input-focus-primary; }
       }
     }
     &.input-danger {
@@ -287,7 +346,7 @@ form {
       .form-control {
         border-color: $form-input-danger;
         color: $form-input-text-danger;
-        &:focus { border-color: $form-input-focus-danger }
+        &:focus { border-color: $form-input-focus-danger; }
       }
     }
     &.input-warning {
@@ -295,24 +354,47 @@ form {
       .form-control {
         border-color: $form-input-warning;
         color: $form-input-text-warning;
-        &:focus { border-color: $form-input-focus-warning }
+        &:focus { border-color: $form-input-focus-warning; }
+      }
+    }
+  }
+
+  /// Specific checkbox
+  .checkbox {
+    &.input-default {
+      label { color: $form-label-default; }
+      input[type=checkbox] {
+        &::before { border-color: $form-label-default; }
+        &:checked::before { background: $form-input-text-default; }
+      }
+    }
+    &.input-success {
+      label { color: $form-label-success; }
+      input[type=checkbox] {
+        &::before { border-color: $form-label-success; }
+        &:checked::before { background: $form-input-text-success; }
+      }
+    }
+    &.input-primary {
+      label { color: $form-label-primary; }
+      input[type=checkbox] {
+        &::before { border-color: $form-label-primary; }
+        &:checked::before { background: $form-input-text-primary; }
+      }
+    }
+    &.input-warning {
+      label { color: $form-label-danger; }
+      input[type=checkbox] {
+        &::before { border-color: $form-label-danger; }
+        &:checked::before { background: $form-input-text-danger; }
+      }
+    }
+    &.input-warning {
+      label { color: $form-label-warning; }
+      input[type=checkbox] {
+        &::before { border-color: $form-label-warning; }
+        &:checked::before { background: $form-input-text-warning; }
       }
     }
   }
 }
-
-// .checkbox {
-//   input[type=checkbox] {
-//     -webkit-appearance: none;
-//
-//     &::before {
-//       content: " ";
-//       display: inline-block;
-//       width: 20px;
-//       height: 20px;
-//       cursor: pointer;
-//       background: none;
-//       border: 1px solid black;
-//     }
-//   }
-// }
